@@ -1,4 +1,4 @@
-var isHotOutside=true;
+var isHotOutside=false;
 var isWeekday=false;
 var hasMoneyInPocket=true;
 
@@ -14,3 +14,9 @@ console.log(shouldBuyIceCream);
 console.log(willGoSwimming);
 console.log(isAGoodDay);
 console.log(willBuyMilk);
+
+if (shouldBuyIceCream) {
+    console.log("I will buy ice cream!");
+} else {
+    console.log("no ice cream for me!");
+}
